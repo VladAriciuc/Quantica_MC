@@ -132,6 +132,19 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "ProceduraHAIA",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedura_haia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantica/procedures/ProceduraHAIAProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
