@@ -119,6 +119,19 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Danunuda",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "danunuda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantica/procedures/DanunudaProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
