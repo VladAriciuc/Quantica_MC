@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "quantica:custom/crucible_particle"
+    }
+  }
+}

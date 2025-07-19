@@ -1,0 +1,7 @@
+
+{
+  "parent": "quantica:displaysettings/crucible",
+  "textures": {
+    "particle": "quantica:block/crucible_particle"
+  }
+}

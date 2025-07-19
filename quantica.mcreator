@@ -1,0 +1,185 @@
+{
+  "mod_elements": [
+    {
+      "name": "Furnacerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnacerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/furnace.json"
+        ]
+      },
+      "path": "~/Replaced Recipes"
+    },
+    {
+      "name": "Crucible",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantica/block/renderer/CrucibleDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/quantica/block/entity/CrucibleTileEntity.java",
+          "src/main/java/net/mcreator/quantica/block/CrucibleBlock.java",
+          "src/main/java/net/mcreator/quantica/block/model/CrucibleDisplayModel.java",
+          "src/main/java/net/mcreator/quantica/block/model/CrucibleBlockModel.java",
+          "src/main/resources/assets/quantica/blockstates/crucible.json",
+          "src/main/resources/assets/quantica/models/custom/crucible_particle.json",
+          "src/main/java/net/mcreator/quantica/block/renderer/CrucibleTileRenderer.java",
+          "src/main/java/net/mcreator/quantica/block/display/CrucibleDisplayItem.java",
+          "src/main/resources/assets/quantica/models/item/crucible.json"
+        ]
+      },
+      "path": "~/Blocks/functional blocks/Crucible"
+    },
+    {
+      "name": "Quanticatab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quanticatab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Mod Icon"
+    },
+    {
+      "name": "Play_anim",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_anim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantica/procedures/Play_animProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/functional blocks/Crucible"
+    },
+    {
+      "name": "Test2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantica/procedures/Test2Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Blocks/functional blocks/Crucible"
+    },
+    {
+      "name": "Ffffffffff",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffffffffff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantica/models/block/ffffffffff.json",
+          "src/main/resources/assets/quantica/models/item/ffffffffff.json",
+          "src/main/resources/assets/quantica/blockstates/ffffffffff.json",
+          "src/main/java/net/mcreator/quantica/block/FfffffffffBlock.java",
+          "src/main/resources/data/quantica/loot_tables/blocks/ffffffffff.json"
+        ]
+      }
+    },
+    {
+      "name": "Ghgg",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghgg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantica/procedures/GhggProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.quantica.ffffffffff": "Ffffffffff",
+      "item_group.quantica.quanticatab": "Quantica",
+      "block.quantica.crucible": "Crucible"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Replaced Recipes",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "functional blocks",
+            "children": [
+              {
+                "name": "Crucible",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mod Icon",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "quantica",
+    "modName": "Quantica",
+    "version": "0.1",
+    "author": "Ciuffo15",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "pehkui",
+      "nexus_compiled_mods",
+      "geckolib",
+      "effekseer",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.quantica"
+  },
+  "mcreatorVersion": 202400452410
+}
