@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:amethyst_cluster",
+    "count": 1
+  }
+}

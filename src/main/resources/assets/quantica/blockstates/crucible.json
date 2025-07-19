@@ -14,14 +14,6 @@
     "facing=west": {
       "model": "quantica:custom/crucible_particle",
       "y": 270
-    },
-    "facing=up": {
-      "model": "quantica:custom/crucible_particle",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "quantica:custom/crucible_particle",
-      "x": 90
     }
   }
 }

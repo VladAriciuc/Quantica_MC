@@ -112,6 +112,19 @@
         ]
       },
       "path": "~/Blocks/functional blocks/Crucible"
+    },
+    {
+      "name": "Campfire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/campfire.json"
+        ]
+      },
+      "path": "~/Replaced Recipes"
     }
   ],
   "variable_elements": [],
@@ -141,6 +154,10 @@
               {
                 "name": "Crucible",
                 "children": []
+              },
+              {
+                "name": "camp_fire",
+                "children": []
               }
             ]
           }
@@ -148,6 +165,10 @@
       },
       {
         "name": "Mod Icon",
+        "children": []
+      },
+      {
+        "name": "Disabled Stuff",
         "children": []
       }
     ]

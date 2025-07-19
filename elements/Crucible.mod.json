@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 0,
-    "rotationMode": 2,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,

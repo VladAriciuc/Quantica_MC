@@ -15,8 +15,8 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.block.DirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.Level;
@@ -42,7 +42,7 @@ import java.util.Collections;
 
 public class UnfiredCrucibleBlock extends BaseEntityBlock implements EntityBlock {
 	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
-	public static final DirectionProperty FACING = DirectionalBlock.FACING;
+	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public UnfiredCrucibleBlock() {
 		super(BlockBehaviour.Properties.of()
@@ -80,8 +80,6 @@ public class UnfiredCrucibleBlock extends BaseEntityBlock implements EntityBlock
 			case NORTH -> box(1, 0, 1, 15, 12, 15);
 			case EAST -> box(1, 0, 1, 15, 12, 15);
 			case WEST -> box(1, 0, 1, 15, 12, 15);
-			case UP -> box(1, 1, 0, 15, 15, 12);
-			case DOWN -> box(1, 1, 4, 15, 15, 16);
 		};
 	}
 
@@ -92,7 +90,7 @@ public class UnfiredCrucibleBlock extends BaseEntityBlock implements EntityBlock
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return this.defaultBlockState().setValue(FACING, context.getNearestLookingDirection().getOpposite());
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
