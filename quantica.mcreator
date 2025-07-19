@@ -90,61 +90,6 @@
         "dependencies": []
       },
       "path": "~/Blocks/functional blocks/Crucible"
-    },
-    {
-      "name": "Ffffffffff",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ffffffffff",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/quantica/models/block/ffffffffff.json",
-          "src/main/resources/assets/quantica/models/item/ffffffffff.json",
-          "src/main/resources/assets/quantica/blockstates/ffffffffff.json",
-          "src/main/java/net/mcreator/quantica/block/FfffffffffBlock.java",
-          "src/main/resources/data/quantica/loot_tables/blocks/ffffffffff.json"
-        ]
-      }
-    },
-    {
-      "name": "Ghgg",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ghgg",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/quantica/procedures/GhggProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "Danunuda",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "danunuda",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/quantica/procedures/DanunudaProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "ProceduraHAIA",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "procedura_haia",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/quantica/procedures/ProceduraHAIAProcedure.java"
-        ],
-        "dependencies": []
-      }
     }
   ],
   "variable_elements": [],
@@ -153,7 +98,6 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.quantica.ffffffffff": "Ffffffffff",
       "item_group.quantica.quanticatab": "Quantica",
       "block.quantica.crucible": "Crucible"
     }
