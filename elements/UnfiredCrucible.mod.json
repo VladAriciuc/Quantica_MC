@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "animatedblock",
   "definition": {
-    "texture": "crucible_texture",
+    "texture": "unfired_crucible_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Crucible",
+    "name": "Unfired Crucible",
     "specialInformation": {
       "fixedValue": []
     },
@@ -139,7 +139,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "crucible.geo.json",
+    "normal": "crucible2.geo.json",
     "displaySettings": "crucible.json",
     "vanillaToolTier": "NONE",
     "blockstateList": []

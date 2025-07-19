@@ -7,6 +7,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.quantica.init.QuanticaModBlockEntities;
+import net.mcreator.quantica.block.renderer.UnfiredCrucibleTileRenderer;
 import net.mcreator.quantica.block.renderer.CrucibleTileRenderer;
 import net.mcreator.quantica.QuanticaMod;
 
@@ -16,5 +17,6 @@ public class ClientListener {
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(QuanticaModBlockEntities.CRUCIBLE.get(), context -> new CrucibleTileRenderer());
+		event.registerBlockEntityRenderer(QuanticaModBlockEntities.UNFIRED_CRUCIBLE.get(), context -> new UnfiredCrucibleTileRenderer());
 	}
 }

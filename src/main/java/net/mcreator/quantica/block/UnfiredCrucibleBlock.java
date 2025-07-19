@@ -40,11 +40,11 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Collections;
 
-public class CrucibleBlock extends BaseEntityBlock implements EntityBlock {
+public class UnfiredCrucibleBlock extends BaseEntityBlock implements EntityBlock {
 	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
-	public CrucibleBlock() {
+	public UnfiredCrucibleBlock() {
 		super(BlockBehaviour.Properties.of()
 
 				.sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
@@ -59,7 +59,7 @@ public class CrucibleBlock extends BaseEntityBlock implements EntityBlock {
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return QuanticaModBlockEntities.CRUCIBLE.get().create(blockPos, blockState);
+		return QuanticaModBlockEntities.UNFIRED_CRUCIBLE.get().create(blockPos, blockState);
 	}
 
 	@Override

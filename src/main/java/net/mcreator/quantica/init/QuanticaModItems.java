@@ -10,12 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.quantica.block.display.UnfiredCrucibleDisplayItem;
 import net.mcreator.quantica.block.display.CrucibleDisplayItem;
 import net.mcreator.quantica.QuanticaMod;
 
 public class QuanticaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, QuanticaMod.MODID);
 	public static final RegistryObject<Item> CRUCIBLE = REGISTRY.register(QuanticaModBlocks.CRUCIBLE.getId().getPath(), () -> new CrucibleDisplayItem(QuanticaModBlocks.CRUCIBLE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> UNFIRED_CRUCIBLE = REGISTRY.register(QuanticaModBlocks.UNFIRED_CRUCIBLE.getId().getPath(), () -> new UnfiredCrucibleDisplayItem(QuanticaModBlocks.UNFIRED_CRUCIBLE.get(), new Item.Properties()));
 	// Start of user code block custom items
 	// End of user code block custom items
 }

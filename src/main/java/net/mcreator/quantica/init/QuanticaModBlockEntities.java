@@ -11,12 +11,15 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.quantica.block.entity.UnfiredCrucibleTileEntity;
 import net.mcreator.quantica.block.entity.CrucibleTileEntity;
 import net.mcreator.quantica.QuanticaMod;
 
 public class QuanticaModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, QuanticaMod.MODID);
 	public static final RegistryObject<BlockEntityType<CrucibleTileEntity>> CRUCIBLE = REGISTRY.register("crucible", () -> BlockEntityType.Builder.of(CrucibleTileEntity::new, QuanticaModBlocks.CRUCIBLE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<UnfiredCrucibleTileEntity>> UNFIRED_CRUCIBLE = REGISTRY.register("unfired_crucible",
+			() -> BlockEntityType.Builder.of(UnfiredCrucibleTileEntity::new, QuanticaModBlocks.UNFIRED_CRUCIBLE.get()).build(null));
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

@@ -90,6 +90,28 @@
         "dependencies": []
       },
       "path": "~/Blocks/functional blocks/Crucible"
+    },
+    {
+      "name": "UnfiredCrucible",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_crucible",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantica/block/model/UnfiredCrucibleBlockModel.java",
+          "src/main/resources/assets/quantica/models/item/unfired_crucible.json",
+          "src/main/java/net/mcreator/quantica/block/model/UnfiredCrucibleDisplayModel.java",
+          "src/main/java/net/mcreator/quantica/block/display/UnfiredCrucibleDisplayItem.java",
+          "src/main/java/net/mcreator/quantica/block/entity/UnfiredCrucibleTileEntity.java",
+          "src/main/resources/assets/quantica/blockstates/unfired_crucible.json",
+          "src/main/java/net/mcreator/quantica/block/renderer/UnfiredCrucibleDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/quantica/block/UnfiredCrucibleBlock.java",
+          "src/main/java/net/mcreator/quantica/block/renderer/UnfiredCrucibleTileRenderer.java",
+          "src/main/resources/assets/quantica/models/custom/unfired_crucible_particle.json"
+        ]
+      },
+      "path": "~/Blocks/functional blocks/Crucible"
     }
   ],
   "variable_elements": [],
@@ -98,6 +120,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.quantica.unfired_crucible": "Unfired Crucible",
       "item_group.quantica.quanticatab": "Quantica",
       "block.quantica.crucible": "Crucible"
     }

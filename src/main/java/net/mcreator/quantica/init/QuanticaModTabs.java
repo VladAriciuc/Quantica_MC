@@ -20,5 +20,6 @@ public class QuanticaModTabs {
 	public static final RegistryObject<CreativeModeTab> QUANTICATAB = REGISTRY.register("quanticatab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.quantica.quanticatab")).icon(() -> new ItemStack(Blocks.CHERRY_SAPLING)).displayItems((parameters, tabData) -> {
 				tabData.accept(QuanticaModBlocks.CRUCIBLE.get().asItem());
+				tabData.accept(QuanticaModBlocks.UNFIRED_CRUCIBLE.get().asItem());
 			}).withSearchBar().build());
 }
